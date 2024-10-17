@@ -1,0 +1,17 @@
+Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. 
+Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. 
+Seu objetivo é descobrir qual interruptor controla qual lâmpada. Como você faria para descobrir, usando apenas 
+duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?
+
+RESPOSTA:
+
+A forma mais fácil de descobrir qual seria o interruptor que controla cada lâmpada é ligando o primeiro interruptor e deixando ele ligado
+por cerca de 5 minutos e depois desligar, em seguida ligue o segundo interruptor e vá até as salas, a sala que a lâmpada estiver quente e
+apagada corresponde ao primeiro interruptor, a sala que estiver com a lâmpada acessa corresponde ao segundo interruptor e a sala que
+estiver com a lâmpada apagada corresponde ao terceiro interruptor.
+
+EXPLICAÇÃO:
+O fato de ter deixado uma lâmpada acessa durante 5 minutos faz com que ela fique quente, assim mesmo com ela apagada, você saberá que 
+ela esteve acesa e portanto corresponde ao primeiro interruptor. Deixando um interruptor ligado, torna-se fácil saber qual lâmpada 
+corresponde a ele. Assim, por eliminção sabemos qual interruptor corresponde a terceira lâmpada. Deste modo, só precisariamos ir uma vez 
+em duas salas escolhidas de modo aleatório para resolver essa questão.
